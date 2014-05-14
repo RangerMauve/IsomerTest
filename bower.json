@@ -1,0 +1,21 @@
+{
+  "name": "IsomerTest",
+  "version": "0.0.0",
+  "authors": [
+    "RangerMauve <RangerMauve@hotmail.com>"
+  ],
+  "description": "Testing out Isomer to make a little \"game\"",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "isomer": "~0.2.4"
+  }
+}
