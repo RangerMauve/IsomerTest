@@ -18,8 +18,8 @@ var player = {
 };
 
 var world = {
-	width: 4,
-	height: 4
+	width: 16,
+	height: 16
 }
 
 function draw() {
