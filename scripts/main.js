@@ -25,7 +25,7 @@ var world = {
 function draw() {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 	var colorchange = 64 * Math.sin((Date.now() % 1000) / 1000 * Math.PI)
-	var z = Math.sin((Date.now() % 1000) / 1000 * Math.PI);
+	var z = Math.sin((Date.now() % 2000) / 2000 * Math.PI);
 	var floor = Shape.Prism(Point.ORIGIN, world.width, world.height, 2 + z).translate(-player.x, -player.y, 0);
 	var player_shape = Shape.Prism(new Point(player.x, player.y, player.z + z), 1, 1, 1).translate(-player.x, -player.y, 0);;
 	var color = new Color(50 + colorchange, 60, 160);
